@@ -1,8 +1,25 @@
 import random
 def ask_b_g():
-	a= input("b or g?\n")
-	return (a)
-def pick_random(Race):
+	a = input(str("b or g?\n"))
+	if (a == "b"):
+		Name = [
+		'Dalton',
+		'Jamal',
+		'Kyle',
+		'Tommy',
+		'Owen',
+		]
+		
+	else:
+		Name= [
+		'Ariana',
+		'Jayla',
+		'Faile',
+		'Jaida',
+		'Savannah',
+		]
+	return random.choice(Name)
+def pick_race():
 	Race= [
 	'human',
 	'elf',
@@ -14,7 +31,7 @@ def pick_random(Race):
 	'halfing',
 	]
 	return random.choice(Race)
-def pick_random(Class)
+def pick_class():
 	Class= [
 	'fighter',
 	'druid',
@@ -27,7 +44,6 @@ def pick_random(Class)
 	'monk',
 	]
 	return random.choice(Class)
-	
-print(b[0])
-print(g[2])
-print("pick_random") 
+print(ask_b_g())
+print(pick_race())
+print(pick_class()) 
