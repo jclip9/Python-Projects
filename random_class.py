@@ -18,7 +18,9 @@ def ask_b_g():
 		'Jaida',
 		'Savannah',
 		]
+		
 	return random.choice(Name)
+	
 def pick_race():
 	Race= [
 	'human',
@@ -30,7 +32,9 @@ def pick_race():
 	'gnome',
 	'halfing',
 	]
+	
 	return random.choice(Race)
+	
 def pick_class():
 	Class= [
 	'fighter',
@@ -43,7 +47,9 @@ def pick_class():
 	'sorcorer',
 	'monk',
 	]
+	
 	return random.choice(Class)
+	
 print(ask_b_g())
 print(pick_race())
 print(pick_class()) 
