@@ -16,7 +16,7 @@ def ask_b_g():
 		'Jayla',
 		'Faile',
 		'Jaida',
-		'Savannah',
+		'CC',
 		]
 		
 	return random.choice(Name)
